@@ -1,0 +1,175 @@
+body{
+    background-color: #eef5ff;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(163 138 138 / 24%);
+    /* width: 350px; */
+    display: flex;
+}
+.main .Sidebar{
+    display: inline-block;
+}
+.Sidebar .info{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 16px;
+}
+.Sidebar .info .box i{
+    border-radius: 100%;
+    border: 2px solid #fefcfc;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+.Sidebar .info .box i.num{
+    background-color: #bde0fc;
+    color: #19395e;
+}
+.Sidebar .info .box .text{
+    display: inline-grid;
+    margin-left: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.Sidebar .info .box .text p{
+    margin-bottom: -15px;
+    color: rgb(206, 203, 203);
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.Sidebar .info .box .text h2{
+    font-family: sans-serif;
+    font-size: large;
+}
+.image img{
+    margin: 15px;
+}
+
+.main .Step4{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+.main .Step4 h1{
+    color: #15315b;
+}
+.main .Step4 .pp{
+    /* margin-bottom: 40px;
+    margin-top: -15px; */
+    color: #c1c2c6;
+    margin-bottom: 40px;
+}
+.main .Step4 .finshing{
+    background-color: #f8f9fe;
+    border-radius: 8px;
+}
+.main .Step4 .finshing .plan{
+    display: inline-block;
+    color: #203052;
+}
+.main .Step4 .finshing .price{
+    display: inline-block;
+    margin-left: 160px;
+    color: #0d2448;
+    font-weight: 600;
+}
+.main .Step4 .finshing a{
+    display: block;
+    margin-top: -13px;
+    color: #acacb6;
+}
+.main .Step4 .finshing a:hover{
+    color: #5550a9;
+    font-weight: 600;
+}
+.main .Step4 .finshing .head{
+    border-bottom: 2px solid #e9eaef;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+.main .Step4 .finshing .por1,.main .Step4 .finshing .por2{
+    padding-left: 10px;
+}
+.main .Step4 .finshing .por1 .name{
+    display: inline-block;
+    color: #9e9eaa;
+    font-size: small;
+}
+.main .Step4 .finshing .por1 .cost{
+    display: inline-block;
+    margin-left: 200px;
+    color: #5e6a7a;
+    font-weight: 600;
+}
+.main .Step4 .finshing .por2 .name{
+    display: inline-block;
+    color: #9e9eaa;
+    font-size: small;
+}
+.main .Step4 .finshing .por2 .cost{
+    display: inline-block;
+    margin-left: 200px;
+    color: #5e6a7a;
+    font-weight: 600;
+}
+.main .Step4 .total{
+    margin-top: 25px;
+    display: inline-block;
+    color: #a2a3a9;
+    font-size: small;
+    margin-left: 20px;
+}
+.main .Step4 .total-cost{
+    display: inline-block;
+    margin-left: 160px;
+    font-weight: 900;
+    color: #4237c0;
+}
+
+
+
+
+.main  .button1{
+    color: #9497a0;
+    border: none;
+    background-color: #ffffff;
+    font-size: medium;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: -480px;
+}
+.main .button2{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: #012859;
+    color: white;
+    margin-top: 500px;
+    display: inline-block;
+    /* position: absolute; */
+    margin-left: -50px;
+    margin-right: 80px;
+}
+.main .button1:hover{
+    color: #12243c;
+}
+.main .button2:hover{
+    background-color: #174a87;
+}

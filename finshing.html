@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="CSS/finshing.css">
+    <link rel="stylesheet" href="./assets/fonts">
+
+    <script src="./js/select.js"></script>
+    <title>Select your plan</title>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="main">
+            <!-- Sidebar start -->
+          <div class="Sidebar">
+    
+            <div class="info">
+              <div class="box">
+                <i class="  fa-solid fa-1"></i>
+                <div class="text"><p>Step 1</p> <h2>Your info</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class=" fa-solid fa-2"></i>
+                <div class="text"><p>Step 2</p> <h2>Select plan</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class="  fa-solid fa-3"></i> 
+                <div class="text"> <p>Step 3</p> <h2>Add-ons</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class=" num fa-solid fa-4"></i>
+                <div class="text"><p>Step 4</p> <h2>Summary</h2></div>
+              </div>
+            </div>
+    
+        <div class="image">
+            <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+        </div>
+    </div>
+    <!-- Sidebar end -->
+    
+    <!-- Step 2 start -->
+    <div class="Step4">
+        <h1>Finishing up</h1>
+        
+        <p class="pp">Double-check everything looks OK before confirming.</p>
+        
+        <div class="finshing" id="finshing">
+            <div class="head">
+                <h4 class="plan" id="plan">Acrade (Monthly)</h4> <p class="price" id="price">$9/mo</p>
+                <a href="./select.html">Change</a>
+            </div>
+
+            <div class="por1" id="por1"><p class="name" id="name1">Online Service</p> <p class="cost" id="cost1">+$1/mo</p></div> 
+            <div class="por2" id="por2"><p class="name" id="name2">Larger Storage</p> <p class="cost" id="cost2">+$2/mo</p></div> 
+        </div>
+
+        <p class="total" id="total">Total (per month)</p> <p class="total-cost" id="total-cost">+$12/mo</p>
+
+        </div>
+
+        <form action="./add-ons.html">
+            <input class="button1" type="submit" value="Go Back" >
+        </form>
+
+        <form action="./Thank.html">
+            <input class="button2" type="submit" value="Confirm">
+        </form>
+        <!-- Step 3 end -->
+    </div>
+    </div>
+    <script src="./js/select.js"></script>
+</body>
+</html>

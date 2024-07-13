@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="CSS/select.css">
+    <link rel="stylesheet" href="./assets/fonts">
+
+    <script src="./js/select.js"></script>
+    <title>Select your plan</title>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="main">
+            <!-- Sidebar start -->
+          <div class="Sidebar">
+    
+            <div class="info">
+              <div class="box">
+                <i class="  fa-solid fa-1"></i>
+                <div class="text"><p>Step 1</p> <h2>Your info</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class=" num fa-solid fa-2"></i>
+                <div class="text"><p>Step 2</p> <h2>Select plan</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class="fa-solid fa-3"></i> 
+                <div class="text"> <p>Step 3</p> <h2>Add-ons</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class="fa-solid fa-4"></i>
+                <div class="text"><p>Step 4</p> <h2>Summary</h2></div>
+              </div>
+            </div>
+    
+          <div class="image">
+            <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+          </div>
+        </div>
+          <!-- Sidebar end -->
+    
+    <!-- Step 2 start -->
+    <div class="Step2">
+        <h1>Select your plan</h1>
+        
+        <p>You have the option of monthly or yearly billing.</p>
+        
+        <div class="box" id="box1">
+            <img src="./assets/images/icon-arcade.svg" alt="">
+            <h5>Arcade</h5>
+            <p id="monthly-details1">$9/mo</p>
+            <div class="yearly-details" id="yearly-details1">
+                <p class="yr">$90/yr</p>
+                <p class="of">2 months free</p>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <img src="./assets/images/icon-advanced.svg" alt="">
+            <h5>Advanced</h5>
+            <p id="monthly-details2">$12/mo</p>
+            <div class="yearly-details" id="yearly-details2">
+                <p class="yr">$120/yr</p>
+                <p class="of">2 months free</p>
+            </div>
+        </div>
+        <div class="box" id="box3">
+            <img src="./assets/images/icon-pro.svg" alt="">
+            <h5>Pro</h5>
+            <p id="monthly-details3">$15/mo</p>
+            <div class="yearly-details" id="yearly-details3">
+                <p class="yr">$150/yr</p>
+                <p class="of">2 months free</p>
+            </div>
+        </div>
+
+        <div class="toggle-switch">
+            <span class="toggle-label" id="monthly">Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label" id="yearly">Yearly</span>
+        </div>
+        
+        <form action="./index.html">
+            <input class="button1" type="submit" value="Go Back" >
+        </form>
+
+        <form action="./add-ons.html">
+            <input class="button2" type="submit" value="Next Step">
+        </form>
+    </div>
+<!-- Step 2 end -->
+        
+    </div>
+    </div>
+    <script src="./js/select.js"></script>
+</body>
+</html>

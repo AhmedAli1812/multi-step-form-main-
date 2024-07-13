@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="CSS/add-ons.css">
+    <link rel="stylesheet" href="./assets/fonts">
+
+    <script src="./js/select.js"></script>
+    <title>Select your plan</title>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="main">
+            <!-- Sidebar start -->
+          <div class="Sidebar">
+    
+            <div class="info">
+              <div class="box">
+                <i class="  fa-solid fa-1"></i>
+                <div class="text"><p>Step 1</p> <h2>Your info</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class=" fa-solid fa-2"></i>
+                <div class="text"><p>Step 2</p> <h2>Select plan</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class=" num fa-solid fa-3"></i> 
+                <div class="text"> <p>Step 3</p> <h2>Add-ons</h2></div>
+              </div>
+    
+              <div class="box">
+                <i class="fa-solid fa-4"></i>
+                <div class="text"><p>Step 4</p> <h2>Summary</h2></div>
+              </div>
+            </div>
+    
+        <div class="image">
+            <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+        </div>
+    </div>
+    <!-- Sidebar end -->
+    
+    <!-- Step 2 start -->
+    <div class="Step3">
+        <h1>Pick add-ons</h1>
+        
+        <p class="pp">Add-ons help enhance your gaming experience.</p>
+        
+        <div class="select" id="select1">
+            <form action="">
+                <input type="checkbox" id="checkbox1"> 
+                <label for="checkbox1">
+                    <h4>Online service</h4>
+                    <P>Access to multiplayer games</P>
+                    <p class="price" id="price1">+$1/mo</p>
+                    <p class="nprice" id="nprice1">+$10/mo</p>
+                </label>
+            </form>
+        </div>
+        <div class="select" id="select2">
+            <form action="">
+                <input type="checkbox" id="checkbox2"> 
+                <label for="checkbox2">
+                    <h4>Larger storage</h4>
+                    <P>Extra 1TB of cloud save</P>
+                    <p class="price" id="price2">+$2/mo</p>
+                    <p class="nprice" id="nprice2">+$20/mo</p>
+                </label>
+            </form>
+        </div>
+        <div class="select" id="select3">
+            <form action="">
+                <input type="checkbox" id="checkbox3"> 
+                <label for="checkbox3">            
+                    <h4>Customizable Profile</h4>
+                    <P>Custom theme on your profile</P>
+                    <p class="price" id="price3">+$2/mo</p>
+                    <p class="nprice" id="nprice3">+$20/mo</p>
+                </label>
+            </form>
+        </div>
+
+        </div>
+
+        <form action="./select.html">
+            <input class="button1" type="submit" value="Go Back" >
+        </form>
+
+        <form action="./finshing.html">
+            <input class="button2" type="submit" value="Next Step">
+        </form>
+        <!-- Step 3 end -->
+    </div>
+    </div>
+    <script src="./js/select.js"></script>
+</body>
+</html>

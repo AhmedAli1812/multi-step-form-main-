@@ -1,0 +1,198 @@
+body{
+    background-color: #eef5ff;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(163 138 138 / 24%);
+    /* width: 350px; */
+    display: flex;
+}
+.main .Sidebar{
+    display: inline-block;
+}
+.Sidebar .info{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 16px;
+}
+.Sidebar .info .box i{
+    border-radius: 100%;
+    border: 2px solid #fefcfc;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+.Sidebar .info .box i.num{
+    background-color: #bde0fc;
+    color: #19395e;
+}
+.Sidebar .info .box .text{
+    display: inline-grid;
+    margin-left: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.Sidebar .info .box .text p{
+    margin-bottom: -15px;
+    color: rgb(206, 203, 203);
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.Sidebar .info .box .text h2{
+    font-family: sans-serif;
+    font-size: large;
+}
+.image img{
+    margin: 15px;
+}
+
+.main .Step2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+.main .Step2 h1{
+    color: #15315b;
+}
+.main .Step2 p{
+    /* margin-bottom: 40px;
+    margin-top: -15px; */
+    color: #c1c2c6;
+}
+.main .Step2 .box{
+    display: inline-block;
+    padding-top: 10px;
+    border: 1px solid #e7e6e8;
+    padding-bottom: 0px;
+    margin: 10px;
+    padding-left: 10px;
+    /* padding-right: 40px; */
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 149px;
+    height: 120px;
+}
+.main .Step2 .box:hover{
+    border: 1px solid #bcb9da;
+    background-color: #f8f9fe;
+}
+.main .Step2 .box p{
+    margin-top: -15px;
+    color: #c1c2c6;
+}
+.main .Step2 .box .of{
+    color: #5d697b;
+}
+
+.yearly-details{
+    display: none;
+}
+    /* start switch */
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    background-color: #f8f9fe;
+    padding-left: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.toggle-label {
+    font-size: 16px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+#monthly.active, #yearly.active {
+    font-weight: bold;
+    color: #24334f;
+}
+    /* End switch */
+.main .Step2 .button1{
+    color: #9497a0;
+    border: none;
+    background-color: #ffffff;
+    font-size: medium;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    margin-top: 130px;
+}
+.main .Step2 .button2{
+    /* right: -300px; */
+    /* position: relative; */
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: #012859;
+    color: white;
+    margin-top: 120px;
+    margin-left: 400px;
+    display: inline-block;
+    position: absolute;
+}
+.main .Step2 .button1:hover{
+    color: #12243c;
+}
+.main .Step2 .button2:hover{
+    background-color: #174a87;
+}

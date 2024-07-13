@@ -1,0 +1,118 @@
+body{
+    background-color: #eef5ff;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(163 138 138 / 24%);
+    /* width: 350px; */
+    display: flex;
+}
+.main .Sidebar{
+    display: inline-block;
+}
+.Sidebar .info{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 16px;
+}
+.Sidebar .info .box i{
+    border-radius: 100%;
+    border: 2px solid #fefcfc;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+.Sidebar .info .box i.num{
+    background-color: #bde0fc;
+    color: #19395e;
+}
+.Sidebar .info .box .text{
+    display: inline-grid;
+    margin-left: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.Sidebar .info .box .text p{
+    margin-bottom: -15px;
+    color: rgb(206, 203, 203);
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.Sidebar .info .box .text h2{
+    font-family: sans-serif;
+    font-size: large;
+}
+.image img{
+    margin: 15px;
+}
+
+.main .Step1{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+.main .Step1 h1{
+    color: #15315b;
+}
+.main .Step1 p{
+    margin-bottom: 40px;
+    margin-top: -15px;
+    color: #c1c2c6;
+}
+.main .Step1 form label{
+    margin-top: 30px;
+    color: #1d2e49;
+}
+
+/* .main .Step1 form .error{
+    margin-left: 170px;
+    color: red;
+    font-weight: bold;
+    display: none;
+} */
+.main .Step1 form .error-message {
+    color: red;
+    display: none;
+    margin-left: 150px;
+    color: #b72d2d;
+    font-weight: 600;
+    margin-top: -20px;
+}
+.error {
+    border-color: red;
+}
+.main .Step1 form input{
+    margin-bottom: 50px;
+    width: 360px;
+    height: 33px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.main .Step1  .button{
+    right: -300px;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: #012859;
+    color: white;
+}
+.main .Step1  .button:hover{
+    background-color: #174a87;
+}
+
+
