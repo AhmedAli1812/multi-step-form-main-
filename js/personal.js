@@ -44,7 +44,7 @@ function validateForm() {
     
     // If form is valid, you can submit it or proceed to the next step
     if (isFormValid) {
-        window.location.href = "/select.html";
+        window.location = "/select.html";
         // You can add your form submission logic here
     }
 }
